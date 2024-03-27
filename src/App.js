@@ -49,7 +49,7 @@ function App() {
                 <span id='text'>{quoteData.content}</span>
               </p>
               <footer id='quote-author' className='blockquote-footer text-bg-primary text-end'>
-                {quoteData.author}
+                <span id='author'>{quoteData.author}</span>
               </footer>
                 <div id='buttons'>
                 <div className='row'>
